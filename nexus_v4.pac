@@ -13,7 +13,7 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, "*.garena.com")) {
         
         // --- CONFIGURAÇÃO DO SEVIDOR ---
-        var vps_ip = "SEU_IP_DA_VPS_AQUI"; // Coloque o IP real da sua VPS
+        var vps_ip = "192.168.18.60"; // Coloque o IP real da sua VPS
         
         /* SELEÇÃO DE PORTA (PLANO DO CLIENTE):
            8080 = HS Alto
